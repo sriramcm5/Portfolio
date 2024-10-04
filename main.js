@@ -17,7 +17,7 @@ navLinks.addEventListener("click", (e) => {
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
-  duration: 1000,
+  duration: 200,
 };
 
 ScrollReveal().reveal(".header__container img", {
@@ -25,25 +25,25 @@ ScrollReveal().reveal(".header__container img", {
 });
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 200,
 });
 ScrollReveal().reveal(".header__container p", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 300,
 });
 ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 500,
 });
 
 ScrollReveal().reveal(".project__card", {
   ...scrollRevealOption,
-  interval: 500,
+  interval: 400,
 });
 
 ScrollReveal().reveal(".experience__list li", {
   ...scrollRevealOption,
-  interval: 500,
+  interval: 400,
 });
 
 ScrollReveal().reveal(".footer__container h2", {
@@ -55,9 +55,9 @@ ScrollReveal().reveal(".footer__container p", {
 });
 ScrollReveal().reveal(".footer__container .mail__to", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 400,
 });
 ScrollReveal().reveal(".footer__socials", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 500,
 });
